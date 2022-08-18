@@ -50,6 +50,18 @@ export default function Navigation() {
               <Link
                 activeClass="section-active"
                 className="nav-link"
+                to="yngen"
+                spy={true}
+                smooth={true}
+                duration={0}
+              >
+                Yngen
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                activeClass="section-active"
+                className="nav-link"
                 to="hero"
                 spy={true}
                 smooth={true}
@@ -104,6 +116,42 @@ export default function Navigation() {
                 duration={0}
               >
                 Contact
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                activeClass="section-active"
+                className="nav-link"
+                to="contact-alt"
+                spy={true}
+                smooth={true}
+                duration={0}
+              >
+                Contact (REQRES.IN)
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                activeClass="section-active"
+                className="nav-link"
+                to="problem-two"
+                spy={true}
+                smooth={true}
+                duration={0}
+              >
+                JS Problems
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                activeClass="section-active"
+                className="nav-link"
+                to="crud"
+                spy={true}
+                smooth={true}
+                duration={0}
+              >
+                CRUD
               </Link>
             </li>
           </ul>

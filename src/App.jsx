@@ -8,9 +8,13 @@ import About from "./components/about/About.component";
 import { Element } from "react-scroll";
 import Playground from "./components/playground/Playground.component";
 import Contact from "./components/contact/Contact.component";
+import ContactAlt from "./components/contact-2/ContactAlt.component";
 import Footer from "./components/Footer/Footer.component";
+import Intro from "./components/Intro/Intro.component";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import ProblemTwo from "./components/problem-2/ProblemTwo.component";
+import Crud from "./components/crud/Crud.component";
 
 function App() {
   Aos.init();
@@ -20,6 +24,9 @@ function App() {
   return (
     <div className="App">
       <Navigation />
+      <Element name="yngen">
+        <Intro />
+      </Element>
       <Element name="hero">
         <Hero />
       </Element>
@@ -34,6 +41,15 @@ function App() {
       </Element>
       <Element name="contact">
         <Contact />
+      </Element>
+      <Element name="contact-alt">
+        <ContactAlt />
+      </Element>
+      <Element name="problem-two">
+        <ProblemTwo />
+      </Element>
+      <Element name="crud">
+        <Crud />
       </Element>
       <Footer />
       <NavigationModal />
