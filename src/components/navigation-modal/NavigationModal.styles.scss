@@ -1,0 +1,24 @@
+.nav-modal-card {
+  background-color: var(--color-dark-blue);
+}
+
+.nav-modal-card-btn {
+  color: var(--color-light-blue);
+}
+
+.nav-modal-item {
+  margin-bottom: 1rem;
+}
+.nav-modal-link {
+  color: var(--color-light-blue);
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--color-orange);
+  }
+}
+
+.nav-modal-link.section-active {
+  color: var(--color-orange);
+}

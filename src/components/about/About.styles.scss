@@ -1,0 +1,85 @@
+.about-btn {
+  font-size: 1.1rem;
+  color: var(--color-dark-blue);
+}
+
+.about-btn svg {
+  width: 1em;
+  height: 1em;
+  font-size: 1.5rem;
+}
+
+.tech-card-fe-img-wrapper {
+  border-radius: 50%;
+  overflow: visible;
+  border: none;
+  background-color: rgba(29, 140, 248, 0.2);
+  padding: 2px;
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: rgba(29, 140, 248, 0.25);
+    transform: scale(1.05);
+  }
+}
+
+.tech-card-be-img-wrapper {
+  border-radius: 50%;
+  overflow: visible;
+  border: none;
+  background-color: rgba(0, 242, 195, 0.2);
+  padding: 2px;
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: rgba(0, 242, 195, 0.25);
+    transform: scale(1.05);
+  }
+}
+
+.tech-card-dt-img-wrapper {
+  border-radius: 50%;
+  overflow: visible;
+  border: none;
+  background-color: rgba(225, 78, 202, 0.2);
+  padding: 2px;
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: rgba(225, 78, 202, 0.25);
+    transform: scale(1.05);
+  }
+}
+
+.about-path2 {
+  position: absolute;
+  opacity: 0.02;
+  max-width: 32%;
+  left: 50%;
+  top: 20%;
+  z-index: -10;
+  transform: scaleY(-1);
+}
+.about-squares {
+  top: 20%;
+  left: 22%;
+  max-height: 450px;
+}
+
+.about-circles {
+  bottom: 0%;
+  left: -250px;
+  max-height: 800px;
+}
+.about-triangle {
+  bottom: 0%;
+  right: 10%;
+  max-height: 350px;
+  transform: scaleX(1);
+}
+
+.about-shapes {
+  position: absolute;
+  opacity: 0.02;
+  z-index: -10;
+}

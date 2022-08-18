@@ -1,0 +1,113 @@
+.btn-filter-active {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.page-link {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+  font-size: 1.2rem;
+}
+
+.playground-playground-header {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+.page-link svg {
+  width: 1em;
+  height: 1em;
+  font-size: 1.2rem;
+}
+
+#pagination li a,
+#pagination li button {
+  border: none;
+  background-color: var(--color-orange);
+  color: var(--color-dark-blue);
+
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+#pagination .active a {
+  color: #fff;
+}
+
+.pagination-muted svg {
+  color: rgba(0, 0, 0, 0.151);
+}
+
+.playground-project-card {
+  overflow: hidden;
+  border: 1px solid black;
+  margin: auto;
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+  transition: all 0.5s;
+
+  &:hover {
+    transform: scale(1.03);
+  }
+}
+
+.card-overlay {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--color-dark-blue);
+  font-weight: 700;
+}
+
+.playground-project-modal-content {
+  background-color: var(--color-dark-blue);
+}
+
+.playground-path {
+  position: absolute;
+  max-width: 56%;
+  left: -150px;
+  top: 30px;
+  opacity: 0.02;
+  z-index: -10;
+  transform: rotate(135deg);
+}
+.playground-path2 {
+  position: absolute;
+  opacity: 0.02;
+  max-width: 32%;
+  right: 0;
+  bottom: 0;
+  z-index: -10;
+  transform: rotate(45deg);
+}
+.playground-squares {
+  top: 60%;
+  right: 50%;
+  max-height: 200px;
+  transform: rotate(45deg);
+}
+
+.playground-circles {
+  top: 15%;
+  right: 10%;
+  max-height: 350px;
+}
+
+.playground-shapes {
+  position: absolute;
+  opacity: 0.02;
+  z-index: -10;
+}

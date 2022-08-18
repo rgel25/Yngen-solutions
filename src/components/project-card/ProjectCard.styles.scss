@@ -1,0 +1,17 @@
+/* Brightness-zoom Container */
+.project-img-hover-zoom--brightness .project-card-img {
+  transition: transform 0.75s, filter 0.75s ease-in-out;
+  transform-origin: center center;
+  filter: brightness(95%);
+  cursor: pointer;
+}
+
+/* The Transformation */
+.project-img-hover-zoom--brightness:hover .project-card-img {
+  filter: brightness(100%);
+  transform: scale(1.2);
+}
+
+.project-modal-dialog {
+  background-color: var(--color-dark-blue);
+}

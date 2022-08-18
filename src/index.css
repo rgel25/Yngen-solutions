@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-dark-blue);
+  background-image: url(../src/assets/images/dots.webp);
+  background-size: contain;
+}
+
+@media only screen and (max-width: 599px) {
+  body {
+    background-size: 700%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-size: 500%;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  body {
+    background-size: 300%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    background-size: 225%;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  body {
+    background-size: 150%;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color-light-blue-2);
+  outline: 1px solid rgb(37, 37, 37);
+  border-radius: 5px;
+}

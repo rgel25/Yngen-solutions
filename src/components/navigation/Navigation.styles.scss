@@ -1,0 +1,103 @@
+.nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 300;
+  background-color: var(--color-light-blue);
+  transition: all 0.75s;
+}
+
+.nav-link {
+  color: var(--color-dark-blue);
+  transition: all 0.75s;
+  box-shadow: inset 0 0 0 0 var(--color-orange);
+  margin: 0 0.25rem;
+  padding: 0 0.25rem;
+  transition: color 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+  cursor: pointer;
+
+  &::after {
+    display: block;
+    content: "";
+    border-bottom: solid 3px var(--color-orange);
+    transform: scaleX(0);
+    transition: transform 500ms ease-in-out;
+  }
+}
+
+.nav-link:hover {
+  box-shadow: inset 100px 0 0 0 var(--color-orange);
+}
+
+.nav-initials {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "Dancing Script", cursive;
+  color: var(--color-dark-blue);
+  text-decoration: none;
+  cursor: pointer;
+
+  .nav-initials-dot {
+    color: var(--color-orange);
+  }
+
+  &:hover {
+    color: var(--color-dark-blue);
+  }
+}
+
+.navbar-collapse {
+  transition: all 0.2s;
+}
+
+.unscrolled {
+  background-color: transparent;
+
+  button {
+    color: var(--color-light-blue);
+  }
+
+  .nav-initials {
+    color: var(--color-light-blue);
+  }
+
+  .nav-link {
+    color: var(--color-light-blue);
+  }
+}
+
+.unscrolled .show {
+  background-color: var(--color-dark-blue);
+
+  .nav-link:hover {
+    box-shadow: none;
+  }
+}
+
+.navbar-collapse.show {
+  //   background-color: var(--color-dark-blue);
+
+  .nav-link {
+    box-shadow: none;
+  }
+
+  .nav-link:hover {
+    box-shadow: none;
+  }
+}
+
+.section-active {
+  &::after {
+    transform: scaleX(1);
+    transform-origin: 0% 50%;
+  }
+}
+
+.nav-btn:focus svg {
+  color: var(--color-orange);
+}
+
+.nav-btn {
+  border: none;
+  box-shadow: none;
+}

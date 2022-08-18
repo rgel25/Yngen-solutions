@@ -1,0 +1,93 @@
+.swal-btn {
+  background-color: var(--color-orange);
+  color: var(--color-dark-blue);
+  transition: all 0.5s;
+}
+
+.spinner-container {
+  min-height: 411px;
+  align-items: center;
+}
+
+.contacts-row .contacts-icons-container svg {
+  height: 1em;
+  width: 1em;
+}
+
+.contacts-icons-container {
+  display: inline;
+  margin-right: 10px;
+  position: relative;
+}
+
+#i-email {
+  color: var(--color-blue);
+}
+
+#i-phone {
+  color: var(--color-pink);
+}
+
+#i-linkedin {
+  color: var(--color-green);
+}
+
+#i-github {
+  color: var(--color-yellow);
+}
+
+.contact-link {
+  text-decoration: none;
+  color: #fff;
+
+  &:hover {
+    color: var(--color-orange);
+  }
+}
+
+.contact-path {
+  position: absolute;
+  max-width: 56%;
+  left: -350px;
+  top: 30px;
+  opacity: 0.02;
+  z-index: -10;
+  transform: scale(-1);
+}
+.contact-path2 {
+  position: absolute;
+  opacity: 0.02;
+  max-width: 800px;
+  right: 30%;
+  bottom: 0;
+  z-index: -10;
+  transform: rotate(45deg);
+}
+.contact-squares {
+  bottom: 0%;
+  left: 0%;
+  max-height: 250px;
+  transform: rotate(45deg);
+}
+.contact-wave {
+  top: 15%;
+  left: 0%;
+  max-height: 200px;
+  transform: rotate(125deg);
+}
+.contact-circles {
+  top: 10%;
+  right: -400px;
+  max-height: 550px;
+}
+.contact-triangle {
+  bottom: 0%;
+  right: 5%;
+  max-height: 250px;
+}
+
+.contact-shapes {
+  position: absolute;
+  opacity: 0.02;
+  z-index: -10;
+}

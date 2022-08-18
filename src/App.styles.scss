@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,300;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
+:root {
+  --color-orange: #ff8d72;
+  --color-blue: #1d8cf8;
+  --color-pink: #e14eca;
+  --color-green: #00f2c3;
+  --color-off-white: rgba(255, 255, 255, 0.8);
+  --color-light-blue: #ffffff;
+  --color-light-blue-2: #18284d;
+  --color-dark-blue: #171941;
+  --color-yellow: #ffd600;
+}
+
+body {
+  font-family: "Merriweather", serif;
+  color: var(--color-light-blue);
+}
+
+.font-bold-italic {
+  font-weight: 700;
+  font-style: italic;
+  color: var(--color-orange);
+}
+
+.btn-orange {
+  background-color: var(--color-orange);
+  color: var(--color-dark-blue);
+  transition: all 0.5s;
+}
+
+.btn-blue {
+  background-color: var(--color-blue);
+  color: var(--color-dark-blue);
+  transition: all 0.5s;
+}
+
+.btn-green {
+  background-color: var(--color-green);
+  color: var(--color-dark-blue);
+  transition: all 0.5s;
+}
+
+.btn-pink {
+  background-color: var(--color-pink);
+  color: var(--color-dark-blue);
+  transition: all 0.5s;
+}
+
+.text-orange {
+  color: var(--color-orange);
+}
+
+.text-blue {
+  color: var(--color-blue);
+}
+
+.text-green {
+  color: var(--color-green);
+}
+
+.text-pink {
+  color: var(--color-pink);
+}
