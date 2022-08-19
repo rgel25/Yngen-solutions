@@ -268,6 +268,16 @@ export default function Crud() {
           </ul>
         </div>
       </div>
+      <div className="row">
+        <h2 className="text-orange my-3">Mini CRUD App (Solution)</h2>
+        <div className="col-12">
+          <img
+            src={require(`../../assets/images/solpart41.PNG`)}
+            alt="crud solution"
+            className="img-fluid"
+          />
+        </div>
+      </div>
     </div>
   );
 }

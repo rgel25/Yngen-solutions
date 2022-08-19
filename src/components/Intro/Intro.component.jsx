@@ -22,6 +22,17 @@ export default function Intro() {
         </a>
         in React so I decided to use it here.
       </p>
+      <p className="fs-4">
+        <span className="fw-bold">
+          Personal Information and Work Experience
+        </span>{" "}
+        can be found in the<span className="fw-bold"> “Download CV” </span>
+        button of the About Me section
+      </p>
+      <p className="fs-4">
+        Contact (REQRES) solution can be found after the Contact page of the
+        portfolio.
+      </p>
     </div>
   );
 }
